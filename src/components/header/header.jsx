@@ -20,7 +20,7 @@ const handleToggle = ()=>{
                         <img src={myImage} alt="not support" />
                     </div>
                     <ul className={toggle ? 'active' : ''}>
-                        <li><NavLink to="/herosection">Home</NavLink></li>
+                        <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/about">About</NavLink></li>
                         <li><a href="#">Service</a></li>
                         <li><a href="#">CaseStudy</a></li>
