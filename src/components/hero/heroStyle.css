@@ -568,8 +568,9 @@ margin: auto;
         display: block;
         justify-content: space-around;
         margin: auto;
-        width: 90%;
+        width: 75%;
         gap: 47px;
+        text-align: center;
     }
     .about-main {
         width: 100%;
@@ -607,7 +608,7 @@ margin: auto;
         cursor: pointer;
         transition: all .5s ease-out 0s;
         border: 1px solid #fff;
-        margin-top: 132px;
+        margin-top: 95px !important;
         margin-left: 109px;
     }
     .box1 {
@@ -708,8 +709,16 @@ margin: auto;
     .cirl-content h5{
         font-size: 30px;
     }
+    .cirl{
+        left: 0px;
+    }
     .wd{
         width: 419px;
+    }
+    .imgcont{
+        width: 100%;
+        margin: -30px auto;
+        font-size: 12px;
     }
 }
 @media only screen and (max-width:430px){
@@ -735,5 +744,6 @@ margin: auto;
         margin-top: 20px;
         margin-left: 109px;
         background-color: azure;
+        display: none !important;
     }
 }

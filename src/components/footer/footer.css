@@ -96,4 +96,8 @@
         padding: 10px;
         padding-top: 30px;
     }
+    .text-center p {
+        color: #5E5E5E;
+        font-size: 14px;
+    }
 }

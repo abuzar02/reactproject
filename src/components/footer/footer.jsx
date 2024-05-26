@@ -84,11 +84,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className=" text-center">
+        <div className=" text-center">
         <p>Copyright ©<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script>document.write(new Date().getFullYear());</script>2024 All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a></p>
       </div>
+      </div>
+
+      
     </>
   )
 }
